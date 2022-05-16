@@ -1,0 +1,38 @@
+/*default settings*/
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+body{background: #fafafa;}
+ul,li{list-style: none;}
+
+a{text-decoration: none;color: #000;transition: .3s;}
+a:hover{color: #666;transition: .3s;}
+
+#wrap{width: 100%;height: 100%;}
+
+/*TITLE*/
+#wrap > .title{text-align: center;height: 200px;display: flex;flex-flow: column;justify-content: space-around;width: 1280px;margin: 0 auto;}
+#wrap > .title > h2{margin: 40px 0px;}
+
+#wrap > .title > .list{width: 100%;display: flex;justify-content: space-between;}
+#wrap > .title > .list a:hover{cursor: pointer;}
+
+/*map(section)*/
+#wrap > .map{width: 100%;height: 100%;display: flex;flex-flow: column;margin: 0 auto;}
+#wrap > .map > .m1,
+#wrap > .map > .m2,
+#wrap > .map > .m3{width: 100%;height: 1000px;margin: 0 auto;text-align: center;display: none;}
+
+/*none과 block으로 event하기위한 css*/
+#wrap > .map > .select{display: block;}
+
+/*각 항목 css*/
+#wrap > .map .head{margin: 30px 0px;}
+#wrap > .map .head > a{margin: 30px 0px;font-size: 24px;font-weight: bold;display: block;}
+#wrap > .map iframe{width: 1400px;height: 800px;border: none;}
+
+/*장단점및보완점부분*/
+#wrap > .map .more{width: 1400px;height: 250px;background: #afafaf;margin: 40px auto;text-align: left;line-height: 40px;color: #fff;}
+#wrap > .map .more .big{font-size: 24px;font-weight: bold;}
+#wrap > .map .more p{margin-left: 20px;}
+
+
